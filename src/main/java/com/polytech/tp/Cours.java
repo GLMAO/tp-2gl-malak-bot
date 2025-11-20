@@ -10,7 +10,8 @@ public class Cours implements ICours {
     private String niveau;
     private boolean necessiteProjecteur;
 
-    
+
+
     public Cours(String matiere, String enseignant, String salle, String date, 
                  String heureDebut, boolean estOptionnel, String niveau, boolean necessiteProjecteur) {
         this.matiere = matiere;
